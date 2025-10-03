@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DigiSolutions - Control de Asistencia</title>
+  <link rel="stylesheet" href="estilo.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="contenedor">
+    <header class="encabezado">
+      <img src="digisoluciones.jpg" alt="Logo Izquierda" class="logo" />
+      <h1>DigiSolutions - Control de Asistencia</h1>
+      <img src="LogoInfo.png" alt="Logo Derecha" class="logo" />
+    </header>
+
+    <nav class="menu-horizontal">
+      <ul>
+        <li><a onclick="mostrarSeccion('home')">Inicio</a></li>
+        <li><a onclick="mostrarSeccion('fundamentacion')">Fundamentación</a></li>
+        <li><a onclick="mostrarSeccion('objetivos')">Objetivos</a></li>
+        <li><a onclick="mostrarSeccion('equipo')">¿Quiénes somos?</a></li>
+        <li><a onclick="mostrarSeccion('contacto')">Contacto</a></li>
+        <li><a onclick="mostrarSeccion('registro_nombres')">Registrar alumno</a></li>
+      </ul>
+    </nav>
+
+    <main class="contenido">
+      <!-- HOME -->
+      <section id="home" class="seccion">
+        <h2>Inicio</h2>
+        <p><strong>Bienvenidos a DigiSolutions</strong></p>
+        <p><em>Control Inteligente de Asistencia con Huella Dactilar</em></p>
+        <p>En DigiSolutions desarrollamos soluciones tecnológicas modernas para mejorar la gestión educativa.</p>
+        <p>El sistema automatizado de registro de asistencia con huella digital facilita el control de entradas y salidas de los alumnos en el Colegio Salesianito, con precisión y seguridad.</p>
+        <p>Eliminamos registros manuales, reducimos el uso de papel y fomentamos la responsabilidad estudiantil.</p>
+
+        <div class="destacado">Tecnología Biométrica + Plataforma Web</div>
+        <ul class="lista-beneficios">
+          <li>Registro seguro con huella digital</li>
+          <li>Detección automática de llegadas tardías</li>
+          <li>Reportes accesibles para el personal administrativo</li>
+        </ul>
+
+        <div class="destacado">¿Por qué elegir DigiSolutions?</div>
+        <ul class="lista-beneficios">
+          <li>Ahorra tiempo y recursos</li>
+          <li>Sistema amigable y eficiente</li>
+          <li>Mejora la organización institucional</li>
+        </ul>
+        <!-- Barra lateral derecha con los botones -->
+<div class="sidebar-derecha">
+    <button onclick="location.href='prototipo.html'">Ver Prototipo</button>
+    <button onclick="location.href='maqueta.html'">Ver Maqueta</button>
+    <button onclick="location.href='publicitario.html'">Ver Publicitario</button>
+    <button onclick="location.href='presupuesto.html'">Ver Presupuesto</button>
+    <button onclick="location.href='esquema.html'">Ver Esquema</button>
+    <button onclick="location.href='diagrama.html'">Ver Diagrama</button>
+</div>
+<!-- Barra lateral izquierda con QR -->
+<div class="sidebar-izquierda">
+    <img src="qr.jpg" alt="Código QR" width="2000px">
+</div>
+
+      </section>
+
+      <!-- FUNDAMENTACIÓN -->
+      <section id="fundamentacion" class="seccion">
+        <h2>Fundamentación</h2>
+        <p>
+          El control de asistencia es un proceso esencial dentro de las instituciones educativas, ya que permite dar seguimiento a la puntualidad y permanencia del alumnado, así como generar reportes que apoyen la gestión administrativa y académica. Sin embargo, cuando se realiza de forma manual, este procedimiento resulta lento, susceptible a errores y difícil de sistematizar, lo que limita su eficiencia y fiabilidad.
+        </p>
+        <p>
+          En este contexto, la incorporación de herramientas tecnológicas representa una alternativa estratégica para optimizar dicho proceso. El uso de un sistema biométrico con huella dactilar, apoyado en la plataforma Arduino, ofrece ventajas significativas: rapidez en el registro, precisión en los datos, seguridad en la identificación del estudiante y facilidad para generar informes. Además, se trata de una solución accesible en cuanto a costos y adaptable a las necesidades de la institución.
+        </p>
+        <p>
+          De esta manera, el proyecto busca no solo modernizar el control de asistencia en el Colegio Salesianito, sino también demostrar cómo la digitalización puede aplicarse de forma concreta y efectiva en el ámbito educativo, mejorando la gestión escolar y fomentando la responsabilidad y la puntualidad entre los estudiantes.
+        </p>
+      </section>
+
+      <!-- OBJETIVOS -->
+      <section id="objetivos" class="seccion">
+        <h2>Objetivos</h2>
+        <p><strong>Objetivo General:</strong><br>
+            Desarrollar un sistema automatizado de control de asistencia con sensor de huella dactilar para la gestión administrativa del colegio.
+
+
+        <p><strong>Objetivos Específicos:</strong></p>
+        <ul class="lista-beneficios">
+          <li>Integrar lector biométrico y Arduino para validar asistencias..</li>
+          <li>Registrar el nombre del alumno y el horario de llegada y hora de salidas.</li>
+          <li>Detectar llegadas tardías en tiempo real</li>
+        </ul>
+      </section>
+
+      <!-- EQUIPO -->
+     <section id="equipo" class="seccion">
+  <h2>¿Quiénes somos?</h2>
+  <p>Somos estudiantes comprometidas con la innovación educativa. Nuestro equipo está conformado por:</p>
+  <div class="equipo-imagenes">
+    <div class="miembro">
+      <img src="tania.jpg" alt="Tania Osnaghi">
+      <p>Tania Osnaghi</p>
+    </div>
+    <div class="miembro">
+      <img src="evelyn.jpg" alt="Evelyn Reyes">
+      <p>Evelyn Reyes</p>
+    </div>
+    <div class="miembro">
+      <img src="mia.jpg" alt="Mia Insfran">
+      <p>Mia Insfran</p>
+    </div>
+    <div class="miembro">
+      <img src="camila.jpg" alt="Camila Vera">
+      <p>Camila Vera</p>
+    </div>
+  </div>
+  <p>Con orientación del Prof. Ricardo Fabio, combinamos conocimientos de electrónica, programación web y bases de datos para solucionar problemas reales.</p>
+</section>
+
+      <!-- CONTACTO -->
+      <section id="contacto" class="seccion">
+        <h2>Contacto</h2>
+        <ul class="lista-beneficios">
+          <li><strong>Nombre de la empresa:</strong> DigiSolutions</li>
+          <li><strong>Correo electrónico:</strong> digisolutions@colegiosalesianito.edu.py</li>
+          <li><strong>Teléfono:</strong> +595 986 616 230</li>
+          <li><strong>Dirección:</strong> Colegio Salesianito, Asunción, Paraguay</li>
+          <li><strong>Responsable técnico:</strong> Ricardo Fabio</li>
+        </ul>
+      </section>
+    </main>
+
+    <!--REGISTRO NOMBRES-->
+    <section id="registro_nombres" class="seccion">
+  <div class="centrar-contenido">
+    <h2>¿Cómo realizar el registro?</h2>
+    <p>Al momento de ingresar y registrar tu huella en el sistema, este guarda la huella en la memoria e indica el número de ID que corresponde, en los botones de abajo ingresa tu nombre y apellido, y tu ID de huella.</p>
+
+    <table class="tabla-centro">
+      <tr>
+        <td><label for="nombre">Nombre:</label></td>
+        <td><input type="text" id="nombre" name="nombre"></td>
+        <td><button onclick="registrarNombre()">Registrar nombre</button></td>
+      </tr>
+      <tr>
+        <td><label for="apellido">Apellido:</label></td>
+        <td><input type="text" id="apellido" name="apellido"></td>
+        <td><button onclick="registrarApellido()">Registrar apellido</button></td>
+      </tr>
+      <tr>
+        <td><label for="idHuella">ID de huella:</label></td>
+        <td><input type="text" id="idHuella" name="idHuella"></td>
+        <td><button onclick="registrarIDHuella()">Ingresar ID de huella</button></td>
+      </tr>
+    </table>
+  </div>
+  
+</section>
+
+
+    
+
+    <footer class="pie">&copy; 2025 DigiSolutions</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
